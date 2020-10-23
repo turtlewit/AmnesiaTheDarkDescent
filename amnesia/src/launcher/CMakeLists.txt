@@ -10,6 +10,6 @@ add_executable(Launcher
     Main.cpp
     QualityChooser.cpp
     LauncherHelper.cpp)
-target_link_libraries(Launcher HPL2 ${FLTK_IMAGES_LIBRARY} ${FLTK_LIBRARY} X11 Xext Xft fontconfig ${JPEG_LIBRARY})
+target_link_libraries(Launcher HPL2 ${FLTK_IMAGES_LIBRARY} ${FLTK_LIBRARY} Xfixes Xrender Xinerama Xcursor Xi Xrandr X11 Xext Xft fontconfig ${JPEG_LIBRARY})
 
 # vim: et ts=4

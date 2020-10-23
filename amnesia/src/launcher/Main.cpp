@@ -127,7 +127,7 @@ bool InitPaths(const tWString& asInitConfigFile, const tWString &asDefaultInitCo
 	gsDefaultMainConfigPathHigh = pInitCfg->GetStringW("ConfigFiles", "DefaultMainSettingsHigh",_W(""));
 
 	gsDefaultBaseLanguage = pInitCfg->GetString("ConfigFiles", "DefaultBaseLanguage", "");
-	//gsDefaultGameLanguage = pInitCfg->GetString("ConfigFiles", "DefaultGameLanguage", "");
+	gsDefaultGameLanguage = pInitCfg->GetString("ConfigFiles", "DefaultGameLanguage", "");
 
 	//Directories
 	gsBaseLanguageFolder = pInitCfg->GetString("Directories","BaseLanguageFolder","");
